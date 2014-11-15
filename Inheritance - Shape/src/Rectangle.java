@@ -10,9 +10,16 @@ public class Rectangle extends Quadrilateral
 		width = w;
 		}
 	
-	public double getArea()
+	@Override
+	public double findArea()
 		{
 		return length * width;
 		}
+	
+	@Override
+	public double findPerimeter()
+		{
+		return (length * 2) + (width * 2);
+		}	
 	}
 

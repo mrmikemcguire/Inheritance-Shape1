@@ -1,9 +1,9 @@
 
-public class Equilateral extends Triangle
+public class EquilateralTriangle extends Triangle
 	{
 	protected double sideLength;
-	
-	public Equilateral(double sl)
+		
+	public EquilateralTriangle(double sl)
 		{
 		sideLength = sl;
 		}
@@ -12,4 +12,5 @@ public class Equilateral extends Triangle
 		{
 		return sideLength * 3;
 		}
+	
 	}

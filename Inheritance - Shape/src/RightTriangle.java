@@ -1,9 +1,9 @@
 
-public class Right extends Triangle
+public class RightTriangle extends Triangle
 	{
 	public double hypotenuse;
 	
-	public Right(double b, double h)
+	public RightTriangle(double b, double h)
 		{
 		base = b;
 		height = h;
@@ -12,5 +12,10 @@ public class Right extends Triangle
 	public double getHypotenuse()
 		{
 		return Math.sqrt(Math.pow(base, 2) + Math.pow(height, 2));
+		}
+	
+	public double findPerimeter()
+		{
+		return getHypotenuse() + base + height;
 		}
 	}
