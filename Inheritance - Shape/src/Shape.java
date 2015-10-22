@@ -12,5 +12,4 @@ public abstract class Shape
 		{
 		return "Shape [perimeter=" + perimeter + ", area=" + area + "]";
 		}
-	
 	}

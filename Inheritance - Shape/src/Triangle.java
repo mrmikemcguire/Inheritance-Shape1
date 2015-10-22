@@ -8,7 +8,4 @@ public abstract class Triangle extends Shape
 		{
 		return (base * height) / 2;
 		}
-	
-	public abstract double findPerimeter();
-	
 	}
