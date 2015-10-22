@@ -1,7 +1,7 @@
 
 public class EquilateralTriangle extends Triangle
 	{
-	protected double sideLength;
+	private double sideLength;
 		
 	public EquilateralTriangle(double sl)
 		{
