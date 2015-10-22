@@ -7,7 +7,7 @@ public class ShapeRunner
 		{
 		EquilateralTriangle et = new EquilateralTriangle(5);
 		System.out.println("Equilateral Triangle");
-		System.out.println("SideLength is " + base);
+//		System.out.println("SideLength is " + base);
 		System.out.println("Area is " + et.findArea());
 		System.out.println("Perimeter is " + et.findPerimeter());
 		System.out.println();
