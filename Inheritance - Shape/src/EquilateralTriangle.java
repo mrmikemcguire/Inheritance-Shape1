@@ -1,16 +1,14 @@
 
 public class EquilateralTriangle extends Triangle
 	{
-	private double sideLength;
-		
-	public EquilateralTriangle(double sl)
+
+	public EquilateralTriangle(double b)
 		{
-		sideLength = sl;
+		base = b;
 		}
 	
 	public double findPerimeter()
 		{
-		return sideLength * 3;
+		return base * 3;
 		}
-	
 	}

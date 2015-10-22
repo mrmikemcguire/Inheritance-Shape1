@@ -1,8 +1,7 @@
 
 public class RightTriangle extends Triangle
 	{
-	private double hypotenuse;
-	
+
 	public RightTriangle(double b, double h)
 		{
 		base = b;
