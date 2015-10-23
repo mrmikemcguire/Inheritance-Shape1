@@ -5,9 +5,10 @@ public class ShapeRunner
 
 	public static void main(String[] args)
 		{
-		Shape et = new EquilateralTriangle(5);
+		EquilateralTriangle et = new EquilateralTriangle(3, 4);
 		System.out.println("Equilateral Triangle");
-//		System.out.println("SideLength is " + base);
+//		System.out.println("Base = " + EquilateralTriangle.base);
+//		System.out.println("Height = " + EquilateralTriangle.height);
 		System.out.println("Area is " + et.findArea());
 		System.out.println("Perimeter is " + et.findPerimeter());
 		System.out.println();
@@ -31,7 +32,7 @@ public class ShapeRunner
 		System.out.println();
 		
 		ArrayList <Shape> shapes = new ArrayList <Shape>();
-		shapes.add(new EquilateralTriangle(5));
+		shapes.add(new EquilateralTriangle(3, 4));
 		shapes.add(new RightTriangle(3, 4));
 		shapes.add(new Trapezoid(5, 9, 4));
 		shapes.add(new Rectangle(5, 7));

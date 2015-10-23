@@ -1,8 +1,8 @@
 
 public abstract class Triangle extends Shape
 	{
-	protected double base;
-	protected double height;
+	protected static double base;
+	protected static double height;
 	
 	public double findArea()
 		{

@@ -10,6 +10,6 @@ public abstract class Shape
 	@Override
 	public String toString()
 		{
-		return "Shape [perimeter=" + perimeter + ", area=" + area + "]";
+		return "Shape [perimeter=" + findPerimeter() + ", area=" + findArea() + "]";
 		}
 	}
